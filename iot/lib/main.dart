@@ -127,7 +127,7 @@ class _RGBHomePageState extends State<RGBHomePage>
     with SingleTickerProviderStateMixin {
   Color _currentColor = Colors.indigo;
   final TextEditingController _ipController =
-  TextEditingController(text: '172.20.10.2'); // Replace with your device's IP
+  TextEditingController(text: '192.168.1.135'); // Replace with your device's IP
   bool _isSending = false;
   bool _isWaving = false;
   bool _isDancing = false;
